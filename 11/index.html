@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +27,7 @@
         <form> 
           <div class="input-wrapper">
             <label for="email">E-mail</label>
-            <input id="email" type="email" required>
+            <input id="email" type="email" required placeholder="Digite seu e-mail">
           </div>  
           
           <div class="input-wrapper">
@@ -35,7 +39,7 @@
 
             </div>  
             
-            <input type="password" id="senha">
+            <input type="password" id="senha" placeholder="Digite sua senha">
             <img onclick="togglePassword()" class="eye" src="./assets/eye-off.svg" alt="">
             <img onclick="togglePassword()" class="eye hide" src="./assets/eye.svg" alt="">
 
@@ -43,7 +47,7 @@
           
           <button type="submit">Entrar</button>
 
-          <div class="create-accoun">
+          <div class="create-account">
             Ainda não tem conta?
             <a href="#">Inscreva-se</a>
           </div>
