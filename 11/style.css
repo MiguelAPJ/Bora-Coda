@@ -1,16 +1,91 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osz-font-smoothing: grayscale;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osz-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+#page {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;    
+}
+
+#page > * {  /*sinal > * = pega os e primeiro niveis de filhos*/
+  width: 50%;    
+}
+
+img {
+width: 100%;
+object-fit: cover;  /*PAra fazer a imagem se encaixa na tela de todos os tamahos*/
+}
+
+
+
+header img {
+  width: 16rem;
+  height: 5.4rem;
+}
+
+#page > div {
+  padding: 4rem 11.2rem;
+}
+
+main {
+  margin-top: 11.4rem;
+}
+
+.headline {
+  max-width: 35rem;
+}
+
+form {
+  margin-top: 4rem;
+}
+
+form button {
+  all: unset; /* Tira todas as propriedades do botão*/  
   
-  :root {
-    font-size: 62.5%;
-    font-family: 'Lato', sans-serif;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+
+  background: #7C3AED;
+  border-radius: 0.4rem;
+
+  width: 100%;
+
+  font-weight: bold;
+
+  color: #FFFFFF;
   
-  body {
-    font-size: 1.6rem;
-  }
+
+  
+
+}
+
+form button:active,
+form button:focus {
+  outline: 2px solid black;
+  border-radius: 0.2rem;  
+}
+
+form button:hover {
+
+  background: #9F67FF;
+
+}

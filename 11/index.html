@@ -5,9 +5,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>oi</p>
+
+  <div id="page" class="flex">
+    <div>
+      <header>
+        <img src="./assets/logo.svg" alt="">
+      </header>
+      <main>
+        <div class="headline">
+          <h1>Acesse a plataforma</h1>
+          <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+        </div>
+
+        <form> 
+          <div class="input-wrapper">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" required>
+          </div>  
+          
+          <div class="input-wrapper">
+
+            <div class="label-wrapper">
+
+              <label for="">Senha</label>
+              <a href="#">Esqueceu a senha?</a>
+
+            </div>  
+            
+            <input id="senha" type="password">
+            <img class="show-password" src="" alt="">
+            <img class="hide-password" src="" alt="">
+
+          </div>
+          
+          <button type="submit">Entrar</button>
+
+          <div class="create-accoun">
+            Ainda não tem conta?
+            <a href="#">Inscreva-se</a>
+          </div>
+
+        </form>
+
+      </main>
+    </div>
+    <img src="./assets/bg.jpg" alt="Imagem de fundo roxo">
+  </div>
+  
   
 </body>
 </html>
