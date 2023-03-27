@@ -28,16 +28,16 @@
           
           <div class="input-wrapper">
 
-            <div class="label-wrapper">
+            <div class="label-wrapper flex">
 
               <label for="">Senha</label>
               <a href="#">Esqueceu a senha?</a>
 
             </div>  
             
-            <input id="senha" type="password">
-            <img class="show-password" src="" alt="">
-            <img class="hide-password" src="" alt="">
+            <input type="password" id="senha">
+            <img onclick="togglePassword()" class="eye" src="./assets/eye-off.svg" alt="">
+            <img onclick="togglePassword()" class="eye hide" src="./assets/eye.svg" alt="">
 
           </div>
           
@@ -55,6 +55,20 @@
     <img src="./assets/bg.jpg" alt="Imagem de fundo roxo">
   </div>
   
+  <script>
+
+    function togglePassword() { /*Função para poder mostrar a senha*/
+      document
+        .querySelectorAll(".eye")
+        .forEach( eye => eye.classList.toggle('hide')) 
+        
+      const type = senha.getAttribute('type') == 'password' ? 'text' : 'password';       
+    
+        senha.setAttribute('type', type)
+      
+    }
+
   
+  </script>  
 </body>
 </html>

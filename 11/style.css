@@ -15,6 +15,15 @@ body {
   font-size: 1.6rem;
 }
 
+button {
+  all: unset; /* Tira todas as propriedades do botão*/   
+  box-sizing: border-box; 
+}
+
+a {
+  text-decoration: none;
+}
+
 #page {
   height: 100vh;
 }
@@ -55,9 +64,49 @@ form {
   margin-top: 4rem;
 }
 
-form button {
-  all: unset; /* Tira todas as propriedades do botão*/  
-  
+.input-wrapper {
+  position: relative;
+}
+
+form input {
+  width: 100%;
+
+
+  background: #FFFFFF;  
+  border: 0.1rem solid #E2E8F0;
+  border-radius: 0.4rem;
+
+  padding: 1.6rem 1.2rem;
+
+  margin-top: 0.8rem;
+}
+
+form .input-wrapper + .input-wrapper { /*O + é para pegar a anterior*/
+  margin-top: 1.6rem;
+}
+
+.label-wrapper {
+  justify-content: space-between;
+}
+
+::-ms-reveal { /*Serve para tirar o olho do navegador ede*/
+  display: none;;
+}
+
+.eye {
+  width: 2rem;
+  height: 2rem;
+
+  position: absolute;
+  top: 58%;
+  right: 5%;
+}
+
+.hide {
+  display: none;
+}
+
+form button {   
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -72,8 +121,8 @@ form button {
   font-weight: bold;
 
   color: #FFFFFF;
-  
 
+  margin-block:3.2rem;
   
 
 }
