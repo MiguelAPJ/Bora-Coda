@@ -232,7 +232,7 @@ section.kanban h2 {
 .cards {
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
+    
 
 }
 
@@ -241,7 +241,8 @@ section.kanban h2 {
 }
 
 .card, .dropzone {
-    transition: 400ms;
+    transition: 400ms;    
+    margin-bottom: 2.4rem;
     
 }
 
