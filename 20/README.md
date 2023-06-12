@@ -1,6 +1,6 @@
 <h1 align="center">Album de Imagens</h1>
 
-<p align="center">Projeto realizaso pela Rocketseat</p>
+<p align="center">Projeto realizado pela Rocketseat</p>
 
 ## Tecnologias Usadas
 
@@ -8,8 +8,8 @@
 - GIT e GitHub
 
 ## Projeto 
-Esse projeto foi feito com intuito de estudar desenvolvimento web, ensinando novos conceitos de css.
+Esse projeto foi feito com intuito de estudar desenvolvimento web, usando HTML e 
 
 ## Imagem do projeto
 
-<img src="./assets/final.png">
+<img src="./assets/projeto.png">
