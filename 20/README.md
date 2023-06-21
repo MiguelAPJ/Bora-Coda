@@ -12,4 +12,4 @@ Esse projeto foi feito com intuito de estudar desenvolvimento web, usando HTML e
 
 ## Imagem do projeto
 
-<img src="./assets/projeto.png">
+<img src="./assets/final.png">
