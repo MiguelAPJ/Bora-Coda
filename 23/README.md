@@ -13,4 +13,4 @@ Esse projeto foi feito com intuito de estudar desenvolvimento web, ensinando nov
 
 ## Imagem do projeto
 
-<img src="./assets/projeto.png">
+<img src="./assests/projeto.png">
