@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F0D13;
+
+    height: 100vh;
+
+    display: grid;
+
+    font-family: 'Roboto', sans-serif;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.app {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-areas: 
+    'A B'
+    'A C';
+
+    gap: 32px;
+    place-content: center;
+}
+
+.player {
+    grid-area: A;
+    width: 266px;
+    height: 498px;
+    background-color: #2A2141;
+    border-radius: 9px;
+    display: flex;    
+    align-items: center;
+    
+    flex-direction: column;
+    
+}
+
+.player img {
+    width: 160px;
+    height: 160px;
+    
+    margin-top: 36px;
+}
+
+.description {
+    margin-top: 28px;
+}
+
+.description h1 {
+    color: #E1E1E6;
+    
+    font-size: 24px;    
+    font-weight: 700;
+}
+
+.description p {
+    margin-top: 9px;
+
+    color: #E1E1E6;
+
+    font-family: Roboto;
+    font-size: 19.206px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 19.206px */
+    margin-bottom: 28px;
+}
+
+.btn {
+    display: flex;
+    gap: 50px;
+}
+.btn i {        
+    font-size:  28px;    
+    color: #e1e1e6;
+    
+    cursor: pointer;   
+}
+
+.progress svg {
+    margin-top: 28px;
+}
+
+.time {    
+    display: flex;
+    gap: 100px;
+}
+.time span {      
+    
+    color: #C4C4CC;
+    font-family: Roboto;
+    font-size: 14.404px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 23.047px */
+}
+
+.player1 {
+    grid-area: B;
+    background-color: #2A2141;
+    width: 357px;
+    height: 266px;
+    border-radius: 28px;  
+
+    display: flex;    
+    align-items: center;
+    
+    flex-direction: column; 
+    
+}
+
+.title {
+    display: flex;
+    gap: 28px;
+    margin: 28px 28px 28px 28px;
+    
+}
+.title img{
+    width: 84px;
+    height: 84.026px;
+    border-radius: 9px;
+    
+}
+
+.description-player {
+    margin-top: 15px;
+}
+
+.description-player h1{    
+
+
+    color: #E1E1E6;
+    font-family: Roboto;
+    font-size: 24.007px;
+
+    font-weight: 700;
+}
+
+.description-player p {
+    color: #E1E1E6;
+    font-family: Roboto;
+    font-size: 19.206px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.player2 {
+    grid-area: C;
+    background-color: #2A2141;
+    width: 357px;
+    height: 199px;
+    border-radius: 28px;
+
+    display: flex;    
+    align-items: center;
+    
+    flex-direction: column; 
+    
+}
